@@ -1,0 +1,126 @@
+/* table.css */
+
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right, #af01ff, #e13ac8, #F7DC6F, #FFA07A, #af01ff);
+    background-size: 500% 100%;
+    animation: gradient 10s ease-in-out infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 0%;
+    }
+    20% {
+      background-position: 20% 0%;
+    }
+    40% {
+      background-position: 40% 0%;
+    }
+    60% {
+      background-position: 60% 0%;
+    }
+    80% {
+      background-position: 80% 0%;
+    }
+    100% {
+      background-position: 110% 0%;
+    }
+  }
+  
+  /* Table Styles */
+  h2 {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+
+  #image-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #image-table th, #image-table td {
+    border: 1px solid #ddd; /* make borders transparent */
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5); /* make background transparent */
+  }
+  
+  #image-table th {
+    font-weight: bold;
+  }
+  
+  #image-table tr:hover {
+    background-color: #f5f5f5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* change background to white on hover */
+  }
+  
+  #image-table img {
+    border-radius: 5px;
+    margin: 5px;
+  }
+  
+  /* Add some space between table and surrounding elements */
+  #image-table {
+    margin-bottom: 20px;
+  }
+
+  button[type="button"] {
+    background-color: #1c60cc;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #163590;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 8px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: #ffee00;
+    color: black;
+}
+
+.btn-primary:hover {
+  background-color: #ffcc00; 
+  color: black;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: black;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+  color: black;
+}
+
+.btn i {
+    margin-right: 2px;
+}

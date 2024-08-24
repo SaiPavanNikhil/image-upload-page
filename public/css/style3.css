@@ -1,0 +1,81 @@
+body {
+    background-color: #f4f4f4; /* Light background color for the whole page */
+    font-family: Arial, sans-serif; /* Set a clean font */
+    display: flex; /* Use flexbox to center the content */
+    flex-direction: column; /* Arrange items in a column */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+}
+
+h2 {
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.container {
+    width: 400px; /* Width of the form */
+    padding: 20px; /* Padding inside the form */
+    background-color: #fff; /* White background for the form */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center; /* Center the text within the container */
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.input-group input {
+    width: 48%; /* Make each input take up half the width of the container minus some space for margin */
+}
+
+.container input[type="text"],
+.container input[type="email"],
+.container input[type="password"],
+.container button {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.container button:hover {
+    background-color: #0056b3;
+}
+
+.container a {
+    display: block;
+    margin-top: 1px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.container a:hover {
+    text-decoration: underline;
+}
+
+.account-login {
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+.account-login p {
+    margin: 0; /* Remove default margin */
+}
+
+.account-login a {
+    margin-left: 0; /* Space between the text and the link */
+}

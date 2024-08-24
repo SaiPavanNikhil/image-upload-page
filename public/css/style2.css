@@ -1,0 +1,68 @@
+/* Basic form styles */
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right, #af01ff, #e13ac8, #F7DC6F, #FFA07A, #af01ff);
+    background-size: 500% 100%;
+    animation: gradient 10s ease-in-out infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 0%;
+    }
+    20% {
+      background-position: 20% 0%;
+    }
+    40% {
+      background-position: 40% 0%;
+    }
+    60% {
+      background-position: 60% 0%;
+    }
+    80% {
+      background-position: 80% 0%;
+    }
+    100% {
+      background-position: 110% 0%;
+    }
+  }
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.container input[type="text"],
+.container input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin: 7px 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.container button:hover {
+    background-color: #0056b3;
+}
+
+.container label {
+    font-weight: bold;
+}
